@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  orchardcoredemo:
+    image: ${DOCKER_REGISTRY}orchardcoredemo
+    build:
+      context: .
+      dockerfile: OrchardCoreDemo/Dockerfile
